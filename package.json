@@ -1,0 +1,33 @@
+{
+  "name": "user_authentication",
+  "version": "1.0.0",
+  "description": "## Step 1 : frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "backend": "nodemon server/server.js",
+    "frontend": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "concurrently": "^3.5.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "hogan": "^1.0.2",
+    "jsonwebtoken": "^8.0.1",
+    "moment-js": "^1.1.15",
+    "mongoose": "^4.10.8",
+    "nodemailer": "^6.3.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "redux-form": "^8.2.6",
+    "redux-thunk": "^2.3.0"
+  }
+}
+
