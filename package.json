@@ -24,7 +24,7 @@
     "jsonwebtoken": "^8.0.1",
     "moment-js": "^1.1.15",
     "mongoose": "^4.10.8",
-    "nodemailer": "^6.3.0",
+    "nodemailer": "^6.4.16",
     "nodemailer-smtp-transport": "^2.7.4",
     "redux-form": "^8.2.6",
     "redux-thunk": "^2.3.0"
